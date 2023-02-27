@@ -1,0 +1,150 @@
+:root {
+  /* SLATE */
+  --text-color: #434455;
+  /* NAVY BLUE */
+  --dark-color: #2e2f42;
+  --pressed-state: #404bbf;
+  --primary-brand: #4d5ae5;
+  --basic-white: #ffffff;
+  --alt-white: #f4f4fd;
+}
+
+/* GENERAL */
+.list {
+  list-style: none;
+}
+
+.button {
+  font-family: inherit;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--basic-white);
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* HEADER */
+.logo,
+.logo:visited {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.logo-web {
+  color: var(--primary-brand);
+}
+
+.index-nav .link,
+.index-nav .link:visited {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+.index-nav .link:hover,
+.index-nav .link:focus {
+  color: var(--pressed-state);
+}
+
+.address .link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: inherit;
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--pressed-state);
+}
+
+/* BODY */
+/* HERO */
+.hero .title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--basic-white);
+  /* тимчасово */
+  background-color: var(--dark-color);
+}
+.hero .button {
+  color: var(--basic-white);
+  background-color: var(--primary-brand);
+}
+.hero .button:hover,
+.hero .button:focus {
+  background-color: var(--pressed-state);
+}
+
+/* SECTIONS */
+.advantages .title,
+.works .title,
+.team .title {
+  color: var(--dark-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.advantages .title-second,
+.works .title-second,
+.team .title-second,
+.projects .title-second {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+/* FOOTER */
+.logo-footer {
+  color: var(--basic-white);
+}
+.footer {
+  background-color: var(--dark-color);
+}
+.text-footer {
+  color: var(--alt-white);
+}
+
+/* PORTFOLIO */
+.projects .button {
+  color: var(--primary-brand);
+  background-color: var(--alt-white);
+}
+
+.projects .text-card {
+  color: var(--alt-white);
+  background-color: var(--primary-brand);
+}
+
+.projects .button:hover,
+.projects .button:focus {
+  color: var(--basic-white);
+  background-color: var(--pressed-state);
+}
