@@ -20,11 +20,6 @@ p {
   margin: 0;
 }
 
-/* ТИМЧАСОВО СКРИТІ ЗАГОЛОВКИ таким способом */
-.title-invis {
-  display: none;
-}
-
 .list {
   list-style: none;
   padding: 0;
