@@ -120,6 +120,10 @@ body {
   color: var(--pressed-state);
 }
 
+.current {
+  border-bottom: 5px solid var(--primary-brand);
+}
+
 /* flex header */
 .menu-flex {
   display: flex;
