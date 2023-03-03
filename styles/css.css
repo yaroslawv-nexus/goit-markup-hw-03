@@ -55,16 +55,13 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-bottom: 120px;
 }
 
 /* HEADER */
 .header {
   border-bottom: 1px solid #e7e9fc;
-}
-.cont-header {
-  height: 72px;
-  margin-bottom: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo,
@@ -200,11 +197,6 @@ body {
   margin-bottom: 72px;
 }
 
-/* .advantages .title-second,
-.works .title-second,
-.team .title-second,
-.projects .title-second  */
-
 .title-second {
   font-weight: 500;
   font-size: 20px;
@@ -214,6 +206,11 @@ body {
 }
 
 /* ADVANTAGES */
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .advant-flex {
   display: flex;
 }
@@ -227,6 +224,10 @@ body {
 }
 
 /* WORKS */
+.works {
+  padding-bottom: 120px;
+}
+
 .works-flex {
   display: flex;
 }
@@ -272,27 +273,33 @@ body {
 }
 
 /* FOOTER */
-.logo-footer {
-  display: inline-block;
+.footer .logo {
+  /* display: inline-block; */
   color: var(--basic-white);
   margin-bottom: 16px;
 }
+
 .footer {
-  height: 310px;
   background-color: var(--dark-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.text-footer {
-  color: var(--alt-white);
+
+.logo-div {
   width: 264px;
 }
 
-.footer .container {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 0;
+.text-footer {
+  margin-top: 16px;
+  color: var(--alt-white);
 }
 
 /* PORTFOLIO */
+.projects {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .projects .button {
   color: var(--primary-brand);
   background-color: var(--alt-white);
@@ -312,12 +319,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.projects .container {
-  margin-top: 96px;
-}
-
 .projects-flex .projects-item {
-  /* height: 420px; */
   width: 360px;
 }
 .projects img {
