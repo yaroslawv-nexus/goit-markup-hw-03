@@ -274,7 +274,6 @@ body {
 
 /* FOOTER */
 .footer .logo {
-  /* display: inline-block; */
   color: var(--basic-white);
   margin-bottom: 16px;
 }
